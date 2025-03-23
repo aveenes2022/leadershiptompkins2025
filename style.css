@@ -121,12 +121,12 @@ background: rgba(0,0,0,0.4);
 /* add font family */
 .aboutus{
   color: #fff;
-  padding-top: ;
+  padding-top: 15px;
   padding-left: ;
   text-align: center;
   text-shadow: black;
-  font-size: 30px;
-  font-weight: 200;
+  font-size: 25px;
+  font-weight: 600;
 }
 .sub_titlefour{
   color:aliceblue;
@@ -165,7 +165,7 @@ background: rgba(0,0,0,0.4);
   color:beige;
 }
 .classphoto{
-  height: 200px;
+  height: 150px;
   width: auto;
   border-radius: 0 40px;
   padding-top: 20px;
@@ -287,12 +287,12 @@ nav {
       font-size: 20px;
       padding: 15px;
       width: 100%;
-      background-color: #333;
+      background-color:transparent;
       border-top: 1px solid #444;
   }
 
   .menu li a:hover {
-      background-color: #444;
+      background-color: powderblue;
   }
 }
 
