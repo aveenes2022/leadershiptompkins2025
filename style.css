@@ -1,4 +1,16 @@
 /* Reset default spacing and ensure full height */
+@media (max-width: 1231px;){
+  .center .title .sub_title{
+    font-size: 15px;
+  }
+}
+@media (max-width:400){
+  .menu ul li a{
+    font-size: 8px;
+  }
+}
+
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +21,8 @@ nav{
   position: fixed ;
   background: none;
   width: 100%;
-  z-index: 12;  
+  z-index: 12;
+  
 }
 nav .menu{
   max-width: 1200px;
@@ -18,14 +31,13 @@ nav .menu{
   align-items: center;
   justify-content: space-between;
   padding: 0 20px;
-  border: 2px solid #fff;
 }
 .logo{
   text-decoration: none;
   color: #fff;
   font-size: 35px;
   font-weight: 600;
-  height: 120px;
+  height: 150px;
   width: auto;
 }
 .menu ul{
@@ -35,9 +47,12 @@ nav .menu{
   list-style: none;
   margin-left: 7px;
 }
+/* this is the menu on the top of the page */
 .menu ul li a{
   text-decoration: none;
   color: #fff;
+  font-style: ;
+  font-family: ;
   font-size: 18px;
   font-weight: 500;
   padding: 8px 15px;
@@ -52,9 +67,12 @@ nav .menu{
   background: url(ithaca.png.jpg) no-repeat;
   height: 100vh;
   width: 100%;
-  background-position: center;
+  /* background-position: center; */
   background-size: cover;
   position: relative;
+  background-attachment: fixed;
+  background-color: #1b1b1b;
+  line-height: normal;
 }
 .img::before{
 content: '';
@@ -67,52 +85,101 @@ background: rgba(0,0,0,0.4);
   position: absolute;
   top: 52%;
   left:50%;
-  width:100%;
-  transform: translate(-50% , -50%);
-  padding: 0 20px;
+  width: 100%;
+  transform: translate(-50%, -50%);
   text-align: center;
+  /* Homepage */
 }
 .center .title{
   color: #fff;
-  font-size: 50px ;
+  font-size: 30px ;
   font-weight: 600;
 }
 .center .sub_title{
   color:#fff;
-  font-size: 33px;
+  font-size: 60px;
   font-weight: 600;
+  font-family: system-ui,'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: bold;
 }
 .center .sub_titletwo{
-  color:#fff;
-  font-size: 27px;
+  color: powderblue;
+  font-size: 20px;
   font-weight: 600;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+  'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 5px;
+}
+/* About Us */
+/* add font family */
+.aboutus{
+  color: #fff;
+  padding-top: ;
+  padding-left: ;
+  text-align: center;
+  text-shadow: black;
+  font-size: 30px;
+  font-weight: 200;
+}
+.sub_titlefour{
+  color:aliceblue;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: left;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 15px;
+  font-weight: 200;
+  text-align: center;
 }
 .center .btns{
   margin-top: 20px;
 }
 .center .btns button{
-  height: 55px;
-  width: 170px;
+  height: 45px;
+  width: 150px;
   border-radius: 5px;
   border: none;
   margin: 0 10px;
   border: 2px solid #fff;
-  font-size: 20px;
+  font-size: 15px;
   font-weight: 500;
   padding: 0 10px;
   cursor: pointer;
   outline: none;
   transition: all 0.3s ease; 
 }
-.center .btns button:first-child{
+.center .btns button:first-child:hover{
   color: #fff;
   background: none;
 }
 .center .btns button:hover{
   background: #fff;
-  color: #000;
+  color:beige;
 }
-.logoblack{
-  width: 150px;
-  height: auto;
+.classphoto{
+  height: 200px;
+  width: auto;
+  border-radius: 0 40px;
+  padding-top: 20px;
+}
+.mutualogo{
+  height: 50px;
+  width: auto;
+}
+.locations{
+  font-size: 25px;
+  padding-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+.maps{
+  width: 200px;
+  height: 200px;
   }
+.container{
+  text-align: center;
+  color: #fff;
+  height: 100vh;
+}
+
