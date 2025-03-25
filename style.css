@@ -26,7 +26,6 @@ nav{
   left: 0;
   /* padding: 10px 0; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
 }
 /* change to inlineflexagain */
 /* maxwidthisat1200 */
@@ -88,6 +87,7 @@ height: 100%;
 width: 100%;
 background: rgba(0,0,0,0.4);
 }
+
 .center{
   position: absolute;
   top: 52%;
@@ -95,6 +95,7 @@ background: rgba(0,0,0,0.4);
   width: 100%;
   transform: translate(-50%, -50%);
   text-align: center;
+  padding-top: 20px;
   /* Homepage */
 }
 .center .title{
@@ -121,11 +122,11 @@ background: rgba(0,0,0,0.4);
 /* add font family */
 .aboutus{
   color: #fff;
-  padding-top: 15px;
+  padding-top:;
   padding-left: ;
   text-align: center;
   text-shadow: black;
-  font-size: 25px;
+  font-size: 8px;
   font-weight: 600;
 }
 .sub_titlefour{
@@ -171,7 +172,7 @@ background: rgba(0,0,0,0.4);
   padding-top: 20px;
 }
 .mutualogo{
-  height: 50px;
+  height: 40px;
   width: auto;
 }
 .locations{
@@ -295,4 +296,3 @@ nav {
       background-color: powderblue;
   }
 }
-
